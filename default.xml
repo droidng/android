@@ -815,7 +815,6 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="ng" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="ng" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
