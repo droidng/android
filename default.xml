@@ -18,6 +18,10 @@
            sync-c="true"
            sync-j="4" />
   
+  <remote name="gitlab"
+	  fetch="https://gitlab.com/"
+	  revision="lineage-19.1" />
+
   <remote name="ng"
 	  fetch="https://github.com/droid-ng"
 	  revision="ng-v2" />
@@ -978,7 +982,7 @@
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" remote="aosp" />
   <project path="system/iorap" name="android_system_iorap" groups="pdk" remote="ng" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" remote="aosp" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
