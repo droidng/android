@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="vendor/droid-ng" name="android_vendor_droid-ng" remote="ng" />
+	<project name="droid-ng/android_vendor_priv" path="vendor/priv" remote="private" revision="master" groups="notdefault,ng_priv" />
+	<project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="ng" />
+	<project name="android_packages_apps_MtkFMRadio" path="packages/apps/MtkFMRadio" remote="ng" />
+</manifest>
