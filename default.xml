@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r7" />
+           revision="refs/tags/android-12.1.0_r11" />
 
   <remote  name="ng"
            fetch="https://github.com/droidng"
@@ -26,7 +26,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r7" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r11" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
